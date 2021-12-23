@@ -2,56 +2,60 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color:ivory;
+}
+
+html{
+    background: url(galeria/hell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body{
-    background: url(galeria/hell.png);
+    background: url(galeria/geralt.png);
     background-repeat: no-repeat;
-    background-size:cover;
-
-}
-
-h1{
-    color: aliceblue;
-    display: inline;
-}
-
-ul{
-    display: inline;
-    margin-left: 35em;
-    font-size: 1.5em
-}
-
-li{
-    color: aliceblue;
-    display: inline;
-    margin: 1vh;
+    background-size:contain;
+    background-position:center;
 }
 
 .simbol{
-    margin: 2em 0em 0em 8em;
+    margin: 1em 0em 0em 10em;
+    display: inline;
+
 }
 
 .title{
-    background-color: lavender;
-
+    margin: 0em 0em 0em 5em;
+    display: inline;
+    font-size: 1.5em;
+    font-weight: 700;
 }
+
+.menu{
+    margin: 0em 0em 0em 50em;
+    font-size: 1.4em;
+    display: inline;
+}
+
+li{
+    display: inline;
+    padding: 14px;
+}
+
+
 
 main{
     width: 100vw;
     height: 100vh;
-    padding-left: 40%;
+    padding-left: 42%;
     padding-right: 30%;
-    padding-top: 20%;
-    background: url(galeria/geralt.png) ;
-    background-repeat: no-repeat;
-    background-size:auto;
-    background-position:center;
+    padding-top: 17%;
 }
 
 .conteudo{
     width: 100%;
     height: 100%;
+    margin
 
 }
 
@@ -60,5 +64,7 @@ main{
 }
 
 footer{
+    margin: 1em;
     color: aliceblue;
+    font-size: 1.2em;
 }
